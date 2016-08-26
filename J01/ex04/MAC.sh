@@ -1,0 +1,1 @@
+ifconfig | grep ether | sed s/' '//g | sed "s/ether//g" | cut -c 2-

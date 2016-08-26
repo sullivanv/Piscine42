@@ -1,0 +1,1 @@
+ldapsearch | grep "cn: " | cut -d ' ' -f 3,4,5 | grep -i bon | wc -l | cut -c 7-

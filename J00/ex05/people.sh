@@ -1,0 +1,1 @@
+ldapsearch cn | grep -A 1 uid=z | grep cn: | cut -c 5- | sort -ir
